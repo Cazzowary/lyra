@@ -1,0 +1,64 @@
+<!--LYRA site-->
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Welcome to LYRA!</title>
+</head>
+<body style="background-color:powderblue;">
+    <p>Hello and welcome to LYRA</p>
+    <hl>
+    <p>Lyra is an web app that lets users keep a public, shareable astronomical observing journal.</p>
+    <p>Users can create custom profiles with their observing locations, equipment, a photo/sketch gallery,
+        and more.</p>
+    <p> Users are given a template for astronomical observations, with menus for things like
+        location and equipment, and inputs for time, date, notes etc.</p>
+<form>
+    <h3>Site Profile</h3>
+    <div><input type = "text", placeholder = "Location"></div>
+    <div><input type = "text", placeholder = "Time"></div>
+    <div><input type = "text", placeholder = "Date"></div>
+    <div><input type = "text", placeholder = "Weather"></div>
+
+<h3>Equipment</h3>
+    <div class="checkbox">
+      <label>
+        <input type="checkbox" value="">
+        4.5" Homemade Dob
+      </label>
+    </div>
+    <div class="checkbox">
+      <label>
+        <input type="checkbox" value="">
+        4" GoTo Refractor
+      </label>
+    </div>
+    <div class="checkbox">
+      <label>
+        <input type="checkbox" value="">
+        AWB Onesky 5" Dob
+      </label>
+    </div>
+    <div class="checkbox">
+      <label>
+        <input type="checkbox" value="">
+        60mm Meade Refractor
+      </label>
+    </div>
+    <div class="checkbox">
+      <label>
+        <input type="checkbox" value="">
+        6" Meade Reflector
+      </label>
+    </div>
+    <h3>Pictures/Sketches</h3>
+    <form action="demo_form.asp">
+  <input type="file" name="pic" accept="image/*">
+    <h3>Observing Notes</h3>
+</form>
+<textarea placeholder = "Clear Skies!" rows = "10" cols = "80" >
+</textarea>
+<div>
+    <input type = "submit" name = "submitform">
+</div>
+</body>
+</html>
